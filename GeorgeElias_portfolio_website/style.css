@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     /* background: linear-gradient(to right, #1f4037, #99f2c8); Gradient background */
-    background: linear-gradient(to right, #5347c4, #5c75b8); /* Gradient background */
+    background: linear-gradient(to right, #5347c4, #9db5f5); /* Gradient background */
 }
 
 header, main, footer {
@@ -23,17 +23,6 @@ header {
 header h1 {
     flex: 1;
 }
-
-/* .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.navbar ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-} */
 
 .navbar {
     display: flex;
