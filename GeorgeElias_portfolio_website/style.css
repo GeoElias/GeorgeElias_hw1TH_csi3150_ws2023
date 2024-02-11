@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     /* background: linear-gradient(to right, #1f4037, #99f2c8); Gradient background */
-    background: linear-gradient(to right, #1f4037, #5cb88d); /* Gradient background */
+    background: linear-gradient(to right, #5347c4, #5c75b8); /* Gradient background */
 }
 
 header, main, footer {
