@@ -7,6 +7,10 @@ body {
     background: linear-gradient(to right, #a861cf, #7b93d1);
 }
 
+head {
+    color: beige;
+}
+
 /* Header Styles */
 header {
     display: flex;
