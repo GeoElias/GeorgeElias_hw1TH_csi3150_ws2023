@@ -65,7 +65,7 @@ header h1 {
 
 
 
-.title-container {
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,16 +75,16 @@ header h1 {
     overflow: auto;
 }
 
-.title-container .left-side {
+.section {
     /* margin-right: 30%; */
     width: 50vw;
 }
 
-.title-container p {
+.section p {
     padding-right: 40px;
 }
 
-.title-container p a{
+.section p a{
     text-decoration: none;
     color: beige;
     font-size: 16px;
@@ -93,31 +93,11 @@ header h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.title-container p a:hover{
+.section p a:hover{
     color: crimson;
 }
 
-.title-container button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: cadetblue;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.title-container button:hover {
-    background-color: crimson;
-}
-
-.title-container .right-side {
-    /* margin-left: -5%; */
-    width: 40vh;
-}
-
-.title-container img {
+.section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -127,51 +107,41 @@ header h1 {
 
 
 /* Progress bar */
-.progressBar {
+.progress {
     /* background-color: #f3f3f3; */
     border-radius: 13px;
     padding: 3px;
 }
 
-.progressBar progress {
+.progress {
     width: 100%;
     height: 20px;
     border: none;
     border-radius: 20px;
-    /* background-color: #4CAF50; */
-    /* color: #3a80f7; */
-    /* background-color: #3a80f7; */
-    /* last 3 lines here do nothing apparently */
 }
 
 
 /* ~~ Progress Bar Stuff */
-.progressBar progress {
+.progress {
     /* border-radius: 20px; */
     /* This will make the progress bar round */
     background: beige;
 }
 
-.progressBar progress::-webkit-progress-bar {
+.progress::-webkit-progress-bar {
     border-radius: 20px; /* This will make the progress bar round in Webkit browsers like Chrome and Safari */
     background: beige;
 }
 
-.progressBar progress::-webkit-progress-value {
+.progress::-webkit-progress-value {
     border-radius: 20px; /* This will make the progress value (the filled part) round in Webkit browsers */
     background: #3a80f7;
 }
 
-.progressBar progress::-moz-progress-bar {
+.progress::-moz-progress-bar {
     border-radius: 20px; /* This will make the progress value (the filled part) round in Firefox */
     background: orange;
 }
-
-/* .progressBar progress::content {
-    color: #3a80f7;
-} */
-/* ~~ End progress bar stuff */
-
 
 /* Footer */
 footer {
