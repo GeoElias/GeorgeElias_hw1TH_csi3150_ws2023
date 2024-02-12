@@ -20,8 +20,8 @@ header {
 
 section img {
     width: 350px;
-    height: 350px;
-    object-fit: cover;
+    display: block;
+    margin: 20px auto;
     border-radius: 25px;
 }
 
@@ -49,6 +49,7 @@ nav ul li a:hover {
 /* Section Styles */
 section {
     padding: 20px;
+    text-align: center;
 }
 
 section p a:hover{
@@ -58,11 +59,13 @@ section p a:hover{
 blockquote {
     font-style: italic;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 progress {
     width: 100%;
     transition: width 0.3s ease;
+    text-align: center;
 }
 
 /* Footer Styles */
