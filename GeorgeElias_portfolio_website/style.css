@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, #406fed, #7b93d1);
+    background: linear-gradient(to right, #a861cf, #7b93d1);
 }
 
 /* Header Styles */
@@ -18,8 +18,10 @@ header {
 }
 
 header img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
 nav ul {
