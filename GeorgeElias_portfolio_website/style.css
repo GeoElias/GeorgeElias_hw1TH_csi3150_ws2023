@@ -50,6 +50,10 @@ section {
     padding: 20px;
 }
 
+section p a:hover{
+    color: crimson;
+}
+
 blockquote {
     font-style: italic;
     margin-bottom: 10px;
