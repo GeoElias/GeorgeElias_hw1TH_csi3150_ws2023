@@ -65,7 +65,7 @@ header h1 {
 
 
 
-.section {
+section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,16 +75,16 @@ header h1 {
     overflow: auto;
 }
 
-.section {
+section {
     /* margin-right: 30%; */
     width: 50vw;
 }
 
-.section p {
+section p {
     padding-right: 40px;
 }
 
-.section p a{
+section p a{
     text-decoration: none;
     color: beige;
     font-size: 16px;
@@ -93,11 +93,11 @@ header h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.section p a:hover{
+section p a:hover{
     color: crimson;
 }
 
-.section img {
+section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -107,13 +107,13 @@ header h1 {
 
 
 /* Progress bar */
-.progress {
+progress {
     /* background-color: #f3f3f3; */
     border-radius: 13px;
     padding: 3px;
 }
 
-.progress {
+progress {
     width: 100%;
     height: 20px;
     border: none;
@@ -122,23 +122,23 @@ header h1 {
 
 
 /* ~~ Progress Bar Stuff */
-.progress {
+progress {
     /* border-radius: 20px; */
     /* This will make the progress bar round */
     background: beige;
 }
 
-.progress::-webkit-progress-bar {
+progress::-webkit-progress-bar {
     border-radius: 20px; /* This will make the progress bar round in Webkit browsers like Chrome and Safari */
     background: beige;
 }
 
-.progress::-webkit-progress-value {
+progress::-webkit-progress-value {
     border-radius: 20px; /* This will make the progress value (the filled part) round in Webkit browsers */
     background: #3a80f7;
 }
 
-.progress::-moz-progress-bar {
+progress::-moz-progress-bar {
     border-radius: 20px; /* This will make the progress value (the filled part) round in Firefox */
     background: orange;
 }
